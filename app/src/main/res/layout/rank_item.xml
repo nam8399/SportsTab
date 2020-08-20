@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:ndroid="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/rk_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center_horizontal"
+                android:text="1"
+                android:textColor="#0E0E0E"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+            <ImageView
+                android:id="@+id/img_rk"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/rk_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="laptop"
+                android:textColor="#3F91B5"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="153dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="193dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/rk_num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="305dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/img_rk"
+                android:gravity="center_horizontal"
+                android:text="10"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="15sp"
+                ndroid:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
